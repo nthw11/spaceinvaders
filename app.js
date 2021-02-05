@@ -1,7 +1,8 @@
 const startButton = document.querySelector('#start');
 
-const startGame = startButton.addEventListener('click', () => {
-    // document.addEventListener('DOMContentLoaded', () => {
+const startGame = startButton.addEventListener('mouseup', () => {
+  this.blur()
+// document.addEventListener('DOMContentLoaded', () => {
   const squares = document.querySelectorAll('.grid div');
   const resultDisplay = document.querySelector('#result');
   let width = 15;

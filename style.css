@@ -1,4 +1,4 @@
-.game-board{
+.game-board {
   position: absolute;
   top: 50px;
   left: 300px;
@@ -24,18 +24,30 @@
   border-right: 3px solid blue;
   border-bottom: 3px solid blue; */
 
-  background-color: blue;
-
+  /* background-color: blue; */
+  background-image: url('i_are_spaceship.png');
+  background-size: 315%;
+  background-position: 3.9px -1px;
 }
 .invader {
-  background-color: purple;
-  border-radius: 10px;
+  background-image: url('i_are_spaceship.png');
+  background-size: 355%;
+  background-position: 20px -15px;
+  /* background-color: purple; */
+  /* border-radius: 10px; */
+  /* background-size: 380%;
+  background-position: 7px -56px; */
 }
 .boom {
-  background-color: red;
+  /* background-color: red; */
+  background-image: url('i_are_spaceship.png');
+  background-position: 3px -30px;
 }
 .laser {
-  background-color: yellow;
+  background-image: url('i_are_spaceship.png');
+  background-size: 380%;
+  background-position: 7px -56px;
+  /* background-color: yellow; */
 }
 .result {
   font-size: 1.5rem;
